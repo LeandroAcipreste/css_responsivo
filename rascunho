@@ -1,0 +1,32 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: var(--blue);
+}
+
+header .container{
+    width: var(--width);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+    color:#fff;
+}
+header{
+    height: 64px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header .container li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sobre-a-loja{
+    width: var(--width);
+}
